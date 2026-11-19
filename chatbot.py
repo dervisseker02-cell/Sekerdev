@@ -50,7 +50,9 @@ if kelime == "ders dalları":
 	print("Ders dalları, farklı bilgi ve becerileri öğreten eğitim alanlarıdır. Örneğin matematik sayıları, fizik doğa olaylarını, kimya maddeleri, biyoloji canlıları, tarih geçmişteki olayları, coğrafya ise Dünya'yı inceler")
 	print()
 	print(f"bitti teşekkûrler,{isim}")
-	exit()   
+	exit()
+else:
+	exit()
 if kelime == 2:
 	print()
 	print(f"tekrardan görüşmek üzere,{isim}")
@@ -61,7 +63,7 @@ if kelime == 3:
 	print("\033[1;32mYükleme tamamlandı\033[0m")
 	print("yeni kelime listeniz şunlardır:tarih,aile,müzik,oyun,dil,python")
 kelime = input("yeni update olan kelimelerden birini giriniz:")
-if kelime == "Tarih":
+if kelime == "tarih":
 	print("Tarih, geçmişte yaşamış insanların faaliyetlerini, toplumları ve meydana gelen olayları inceleyen bilim dalıdır")
 	print()
 	print(f"bitti teşekkürler,{isim}")
