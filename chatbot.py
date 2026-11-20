@@ -51,8 +51,6 @@ if kelime == "ders dalları":
 	print()
 	print(f"bitti teşekkûrler,{isim}")
 	exit()
-else:
-	exit()
 if kelime == 2:
 	print()
 	print(f"tekrardan görüşmek üzere,{isim}")
